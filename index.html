@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,41 +20,47 @@
       }
     </style>
   </head>
-  <body class="w-full h-svh font-karla bg-lightGray grid place-items-center">
+  <body class="grid h-svh w-full place-items-center bg-lightGray">
     <main
-      class="grid grid-cols-2 grid-rows-2 md:max-w-screen-sm w-4/5 font-karla md:h-auto h-4/5"
+      class="flex h-auto w-4/5 flex-col overflow-clip rounded-md font-karla shadow-xl md:grid md:h-auto md:max-w-[40rem] md:grid-cols-2 md:grid-rows-2"
     >
-      <section class="col-span-2 p-10 bg-white">
-        <h1 class="text-xl text-cyan font-semibold">Join our community</h1>
+      <section class="col-span-2 flex flex-col gap-2 bg-white p-10">
+        <h1 class="mb-3 text-xl font-semibold tracking-wide text-cyan">
+          Join our community
+        </h1>
 
-        <h2 class="text-lg text-brightYellow">
+        <h2 class="text-md font-semibold text-brightYellow">
           30-day, hassle-free money back guarantee
         </h2>
 
-        <p class="text-grayishBlue">
+        <p class="tracking-wide text-grayishBlue">
           Gain access to our full library of tutorials along with expert code
           reviews. Perfect for any developers who are serious about honing their
           skills.
         </p>
       </section>
-      <section class="bg-cyan p-10">
-        <h1>Monthly Subscription</h1>
-        <span>
-          <span> &dollar;29 </span>
-          <p>per month</p>
+      <section class="flex flex-col gap-1 bg-cyan p-10">
+        <h1 class="mb-3 text-lg font-semibold text-white">
+          Monthly Subscription
+        </h1>
+        <span class="flex items-center gap-3">
+          <span class="text-3xl font-semibold text-white"> &dollar;29 </span>
+          <p class="text-lightGray opacity-50">per month</p>
         </span>
-        <p>Full access for less than &dollar;1 a day</p>
+        <p class="text-sm tracking-wide text-lightGray">
+          Full access for less than &dollar;1 a day
+        </p>
         <a
           href="#"
-          class="block bg-brightYellow w-full py-2 text-center rounded- text-white"
+          class="mt-5 block w-full rounded-md bg-brightYellow py-3 text-center text-white shadow-xl"
         >
           Sign Up
         </a>
       </section>
 
-      <section class="bg-lightCyan">
-        <h1>Why Us</h1>
-        <ul>
+      <section class="flex flex-col gap-1 bg-lightCyan p-10">
+        <h1 class="text-lg font-semibold tracking-wide text-white">Why Us</h1>
+        <ul class="text-sm text-lightGray opacity-70">
           <li>Tutorials by industry experts</li>
           <li>Peer &amp; expert code review</li>
           <li>Coding exercises</li>
